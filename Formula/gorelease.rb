@@ -7,7 +7,7 @@ class Gorelease < Formula
 
   if OS.mac?
     url "https://github.com/mas2020/gorelease/releases/download/v0.1.2/gorelease_0.1.2_Darwin_x86_64.tar.gz"
-    sha256 "d595384765dd1248da6c18ee29d4a460e521aa4a787bd46436098223cae248d2"
+    sha256 "a9f9d9c31ad0ac28b886b0e26026c8d0af9e64c35f443447b02a68a85562f9c6"
   end
 
   def install
