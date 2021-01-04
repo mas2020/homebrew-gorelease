@@ -2,12 +2,12 @@
 class Gorelease < Formula
   desc "This a test app for test formula and goreleaser app"
   homepage "https://github.com/mas2020/homebrew-gorelease"
-  version "0.1.2"
+  version "0.1.3"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/mas2020/gorelease/releases/download/v0.1.2/gorelease_0.1.2_Darwin_x86_64.tar.gz"
-    sha256 "a9f9d9c31ad0ac28b886b0e26026c8d0af9e64c35f443447b02a68a85562f9c6"
+    url "https://github.com/mas2020/gorelease/releases/download/v0.1.3/gorelease_0.1.3_Darwin_x86_64.tar.gz"
+    sha256 "19c6547d3e7d3f9b6d7a3deb20a3e41de9a92e5c124125e7fc150b9cc6e57bd1"
   end
 
   def install
